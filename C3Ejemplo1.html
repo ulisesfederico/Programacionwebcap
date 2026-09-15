@@ -1,0 +1,106 @@
+<!DOCTYPE htnl>
+
+ <!-- Fig. 3.1: nuevost1posinputformularios.html -->
+ <!-- Los nuevos tip o s de elementos input de form ularios de HTML5 y sus atributos. --> 
+ <htnl>
+ <head>
+  <meta charset= "utf - 8">
+ <title>Nuevos tipos de input de HTML5</title>
+ </head>
+
+ <body>
+ <h1>Demo de nuevos tipos de input de HTML5</h1>
+ <p>Este formulario demuestra los nuevos tipos de elementos input de HTML5
+ y los atributos placeholder, required y autofocus.
+ </p>
+
+  <form method = "post" action = "http://www.youtube.com">
+ <p>
+ <label>Color:
+ <input type = "color" autofocus />
+ (Código hexadecimal como #ADD8E6)
+ </label>
+ </p>
+ <P>
+ <labe1>Fecha:
+ <input type = "date" />
+ (aaaa-mm-dd)
+ </label>
+ </p>
+ <p>
+ <label>Hora y fecha:
+ <input type = "datetime"/>
+ (dd-mm-aaaa hh:mm, como 27-01-2012 t03:15)
+ </label>
+ </p>
+ <p>
+ <label>Hora y fecha-local:
+ <input type = "datetime-local" />
+ (<dd-mm-aaaa></dd-mm-aaaa> hh:mm, como 2012-01-27 t03:15)
+ </label>
+ </p>
+ <p>
+ <label>Email:
+ <input type = "email" placeholder = "nombre@dom1nio.com" 
+ required /> (nombre@domin1o.com)
+ </label>
+ </p>
+ <p>
+ <label>Mes:
+ <input type = "month" /> (aaaa-mm)
+ </label>
+ </p>
+ <p>
+<label>Número:
+ <input type = "nunber"
+ min = "0"
+ max = "7"
+ step = "1"
+ value = "4" />
+ </label> (Escriba un número entre 0 y 7)
+ </p>
+ <p>
+ <label>Rango:
+ 0 <input type = "range"
+ min = "0"
+ max = "20"
+ value = "10" /> 20
+ </labe1>
+ </p>
+ <p>
+ <label>Búsqueda:
+ <input type = "search" placeholder = "consulta de búsqueda" />
+ </labe1> (Escriba aquí su consulta de búsqueda.)
+ </p>
+ <p>
+ <label>Tel:
+ <input type = " tel" placeholder = "( # # # ) # # # -# # # # "
+ pattem = "\ ( \ d { 3 } \ ) + \d {3} -\d { 4 }" required />
+ (###) ###-####
+ </label >
+ </p>
+ <p>
+ <label>Hora:
+ <input type = "time" /> (hh:mm)
+ </label>
+ </p>
+ <p>
+ <label >URL:
+ <input type = "url"
+ placeholder = "http://www.nombredominio.com" />
+ ( http://www.nombredominio.com)
+ </labe1>
+ </p>
+ <p>
+ <label>Semana:
+ <input type = "week" />
+ (aaaa-Wnn, tal como 2012-01)
+ </labe1>
+ </p>
+ <p>
+ <input type = "submit" value = "Enviar" />
+ <input type = "reset" value = "Borrar" />
+ </p>
+ </fom>
+ </body>
+ </html>
